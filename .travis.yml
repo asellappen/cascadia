@@ -7,8 +7,6 @@ go:
   - 1.4
 
 install:
-  - wget https://dl.google.com/go/go1.3.linux-ppc64le.tar.gz 
-  - tar -xvf go1.3.linux-amd64.tar.gz 
   - go get github.com/andybalholm/cascadia
 
 script:
